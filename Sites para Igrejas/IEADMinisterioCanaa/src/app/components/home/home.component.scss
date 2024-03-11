@@ -1,0 +1,25 @@
+@import "../../../cor-variaveis.scss";
+
+.sesao-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 0px 70px;
+    span{
+        font-size: 20px;
+        font-weight: 400;
+        color: $texto-principal;
+        margin-left: 8px;        
+    }
+
+    h1{
+        font-size: 72px;
+        color: $texto-principal;
+        font-weight: 400;
+    }
+}
+.headline{
+    margin-right: 600px;
+}
