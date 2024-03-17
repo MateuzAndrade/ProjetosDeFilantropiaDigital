@@ -23,3 +23,27 @@
 .headline{
     margin-right: 600px;
 }
+
+.cultos-nome{
+    .cultos {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .culto-dias {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            /* Ajuste a margem conforme necessário */
+        }
+    
+        h2 {
+            margin-bottom: 5px;
+            /* Ajuste a margem conforme necessário */
+        }
+    
+        h3,
+        p {
+            margin-top: 0;
+            /* Remova a margem superior padrão */
+        }}
